@@ -4,7 +4,7 @@
 var
   config    = require('./config'),
   mongoose  = require('mongoose'),
-  logger    = require('../logger.js')
+  logger    = require('../logger.js')('mongoose')
 ;
 
 module.exports = function() {
