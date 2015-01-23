@@ -39,7 +39,7 @@
 ####Post User Loyalty Points
 **Description:** Posts a user loyalty transaction to the user and updates their current points. The points can be negative if deducitng points from the user.<br/>
 **API Path:**  POST /api/users/:id/points<br/>
-**Request Body:** {"amount":number }
+**Request Body:** {"amount":number }<br/>
 **Response Code:** 200<br/>
 **Response Body:** Empty<br/>
 **Errors:** 404 - User not Found, 409 - Conflict due to not enough points, 500 - Misc Error.<br/>
