@@ -1,0 +1,37 @@
+{
+  "name": "loyaltyTS",
+  "version": "1.0.0",
+  "description": "A sample loyalty transaction system created as a code challenge for https://gist.github.com/mikeybtn/0c5f3a8a1b8ac549b73f",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha test/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devingoodsell/loyaltyTS.git"
+  },
+  "author": "Devin Goodsell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devingoodsell/loyaltyTS/issues"
+  },
+  "homepage": "https://github.com/devingoodsell/loyaltyTS",
+  "devDependencies": {
+    "cha": "^0.2.1",
+    "hippie": "^0.3.0",
+    "mocha": "^2.1.0",
+    "morgan": "^1.5.1",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "chai": "^1.10.0",
+    "express": "^4.11.0",
+    "method-override": "^2.3.1",
+    "mongoose": "^3.8.21",
+    "request": "^2.51.0",
+    "underscore": "^1.7.0",
+    "winston": "^0.8.3"
+  }
+}
